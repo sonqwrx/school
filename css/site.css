@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+body{
+  /*background-color: #B366FF;*/
+  background-color: #dfe49b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+body{
+	background-color: #dfe49b;
+}
+p{
+	background-color: #2F70AF;
+	font-size: 50px;
+	color: #264e2c;
+	text-shadow: 2px 2px 2px #55761a;
+}
+header{
+  height: 100px;
+  text-align: center;
+}
+
+
+.textvideo{
+  z-index: 2;
+  margin: 10px;
+  margin-top: 50px;
+  font-size: 6vw; 
+  color: #000000;
+  text-shadow: 0px 0px 10px #ffffff;
+  font-family: 'Russo One', sans-serif;
+}
+
+nav{
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 90%;
+  box-shadow: 0px 0px 10px #ffffff;
+  float: left;
+  margin: 70px;
+  margin-top: 10px;
+  background: linear-gradient(to left, #dfe49b, #55761a);
+}
+aside{
+  justify-content: center;
+  align-items: center;
+}
+  
+
+h2{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  color: #000000;
+}
+main{
+  margin: 110px;
+  
+  width: 85%;
+  font-size: 30px; 
+  text-shadow: 0px 0px 10px #ffffff;
+  float: left;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.f1{
+  margin: 20px;
+  width: 60%;
+}
+footer{
+    padding: 5px;
+  height: 200px;
+  justify-content: center;
+    clear: both;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    color: #264e2c;
+    text-shadow: 0px 0px 2px #55761a;
+  }
+
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    transition: all 0.5s ease;
+    margin: 20px;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: #264e2c;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #264e2c 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: #264e2c;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #264e2c 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+@media only screen and (max-width:800px){
+  main, nav, aside, section{
+    width: 100%;
+  }
+}
+
+a{
+  text-decoration: none;
+}
